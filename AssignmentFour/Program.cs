@@ -251,6 +251,38 @@
 
             #endregion
             #endregion
+            #region switch c# 9.0
+            #region Relational pattern
+            //num < 10,between 10 and 20, >20
+            //Console.WriteLine("Please enter a number");
+            //int.TryParse(Console.ReadLine(), out int number);
+            //string result = number switch
+            //{
+            //    < 10 => "number is less than 10",
+            //    >= 10 and <= 20 => "number is between 10 and 20",
+            //    > 20 => "number is greater than 20",
+            //    _ => "unknown number"
+            //};
+            //Console.WriteLine(result);
+            #endregion
+            #region Enhanced property pattern
+            //person is samyy & age >10
+            //person is omar & age between 20 and 30
+            //person's age is between 40 and 50
+            //else ==> unknown person
+            //person person = new person() { Id = 10, Name = "Hamada", Age = 20 };
+
+            //string result = person switch
+            //{
+            //    { Name: "Samyy", Age: > 10 } => "Hello Samyy",
+            //    { Name: "Omar", Age: >= 20 and <= 30 } => "Hello Omar",
+            //    { Age: >= 40 and <= 50 } => "Hello person with age between 40 and 50",
+            //    _ => "Hello stranger"
+            //};
+            //Console.WriteLine(result);
+
+            #endregion
+            #endregion
         }
     }
 }
