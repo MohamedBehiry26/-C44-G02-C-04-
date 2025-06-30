@@ -1,4 +1,6 @@
-﻿namespace AssignmentFour
+﻿using System.IO.Pipes;
+
+namespace AssignmentFour
 {
     internal class Program
     {
@@ -280,6 +282,94 @@
             //    _ => "Hello stranger"
             //};
             //Console.WriteLine(result);
+
+            #endregion
+            #endregion
+            #region looping statements [for , foreach]
+            #region intro
+            //Console.WriteLine(0);
+            //Console.WriteLine(1);
+            //Console.WriteLine(2);
+            //Console.WriteLine(3);
+            //Console.WriteLine(4);
+            //Console.WriteLine(5);
+            //Console.WriteLine(6);
+            //Console.WriteLine(7);
+            //Console.WriteLine(8);
+            //Console.WriteLine(9);
+            //Console.WriteLine(10);
+
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 100; i >= 1; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //int[] numbers = new int[] { 1, 2, 3, 4, 5};
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            //foreach (int number in numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+            //Person[] persons = new Person[]
+            //{
+            //    new Person() { Id = 1, Name = "Hamada", Age = 20 },
+            //    new Person() { Id = 2, Name = "Ahmed", Age = 25 },
+            //    new Person() { Id = 3, Name = "Ali", Age = 30 }
+            //};
+            //foreach (Person person in persons)
+            //{
+            //    Console.WriteLine($"Id: {person.Id}, Name: {person.Name}, Age: {person.Age}");
+            //}
+            #endregion
+            #region for - foreach
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (i == 3)
+            //        continue; // skip the current iteration
+            //break; // exit the loop
+            //return; // exit the method
+
+            #endregion
+            #endregion
+            #region while - do while
+            #region do while
+            //int number ;
+            //bool isparsed;
+            //do
+            //{
+            //    Console.WriteLine("Please enter a even number");
+            //    isparsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!isparsed || number % 2==1);
+            ////false==>!false==>true
+            ////true==>!true==>false
+            //Console.WriteLine(number); 
+            #endregion
+            #region while
+            //int number;
+            //bool isparsed;
+            //Console.WriteLine("Please enter a number <=10");
+            //isparsed = int.TryParse(Console.ReadLine(), out number);
+            //if (isparsed)
+            //{
+            //    while (number <= 10)
+            //    {
+            //        Console.WriteLine(number );
+            //        number++;
+            //    }
+            //}
+            
+
+
 
             #endregion
             #endregion
