@@ -68,55 +68,98 @@
             //1000==> Option 1
             //2000==> Option 2 ,option 1
             //3000==> Option 3 ,option 2, option 1
-            Console.WriteLine("Please enter your budget");
-            int.TryParse(Console.ReadLine(), out int budget);
-        //if (budget == 1000)
-        //{
-        //    Console.WriteLine("Option 1");
-        //}
-        //else if (budget == 2000)
-        //{
-        //    Console.WriteLine("Option 2");
-        //    Console.WriteLine("Option 1");
-        //}
-        //else if (budget == 3000)
-        //{
-        //    Console.WriteLine("Option 3");
-        //    Console.WriteLine("Option 2");
-        //    Console.WriteLine("Option 1");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("No options available");
-        //}
-        //switch (budget)
-        //{
-        //    case 1000:
-        //        Console.WriteLine("Option 1");
-        //        break;
-        //    case 2000:
-        //        Console.WriteLine("Option 2");
-        //        Console.WriteLine("Option 1");
-        //        goto case 1000;
-        //        break;
-        //    case 3000:
-        //        Console.WriteLine("Option 3");
-        //        Console.WriteLine("Option 2");
-        //        Console.WriteLine("Option 1");
-        //        goto case 2000;
-        //        break;
-        //    default:
-        //        Console.WriteLine("No options available");
-        //        break;
-        //}
+            //Console.WriteLine("Please enter your budget");
+            //int.TryParse(Console.ReadLine(), out int budget);
+            //if (budget == 1000)
+            //{
+            //    Console.WriteLine("Option 1");
+            //}
+            //else if (budget == 2000)
+            //{
+            //    Console.WriteLine("Option 2");
+            //    Console.WriteLine("Option 1");
+            //}
+            //else if (budget == 3000)
+            //{
+            //    Console.WriteLine("Option 3");
+            //    Console.WriteLine("Option 2");
+            //    Console.WriteLine("Option 1");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No options available");
+            //}
+            //switch (budget)
+            //{
+            //    case 1000:
+            //        Console.WriteLine("Option 1");
+            //        break;
+            //    case 2000:
+            //        Console.WriteLine("Option 2");
+            //        Console.WriteLine("Option 1");
+            //        goto case 1000;
+            //        break;
+            //    case 3000:
+            //        Console.WriteLine("Option 3");
+            //        Console.WriteLine("Option 2");
+            //        Console.WriteLine("Option 1");
+            //        goto case 2000;
+            //        break;
+            //    default:
+            //        Console.WriteLine("No options available");
+            //        break;
+            //}
 
-        //Hamada:
-        //    Console.WriteLine("Hello ya hamada");
-        //    Console.WriteLine("Please enter your number");
-        //    int.TryParse(Console.ReadLine(), out int number);
-        //    goto Hamada;
+            //Hamada:
+            //    Console.WriteLine("Hello ya hamada");
+            //    Console.WriteLine("Please enter your number");
+            //    int.TryParse(Console.ReadLine(), out int number);
+            //    goto Hamada;
 
 
+
+            #endregion
+            #endregion
+            #region switch c# 7.0 [pattern matching - when keyword]
+            #region pattern matching 
+            ////[object - integer - double]
+            //object obj;
+            ////allocate 4 bytes of memory
+            //obj =10; 
+            //switch (obj)
+            //{
+            //    case int x when x >10 && x>=5 :
+            //        Console.WriteLine("integer");
+            //        break;
+            //        case float x:
+            //        Console.WriteLine("float");
+            //        break;
+            //        case double x:
+            //        Console.WriteLine("double");
+            //        break;
+            //        default:
+            //        Console.WriteLine("unknown type");
+            //        break;
+            //}
+
+            #endregion
+            #region user defined types
+            //object obj = new person() {Id = 1, Name = "Hamada" , Age =20 };
+            //switch (obj)
+            //{
+            // case int input:
+            //     Console.WriteLine("integer");
+            //     break;
+            // case float input:
+            //     Console.WriteLine("float");
+            //     break;
+            // case person input:
+            //     Console.WriteLine("person");
+            //     break;
+            // default:
+            //     Console.WriteLine("unknown type");
+            //     break;
+            //}
 
             #endregion
             #endregion
