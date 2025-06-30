@@ -6,7 +6,7 @@
         {
             #region Control Statements
             #region conditional statements -Example 1 [quarter]
-            
+
             Console.WriteLine("please enter a number ");
             int.TryParse(Console.ReadLine(), out int age);
             //if  (age > 22)
@@ -160,6 +160,94 @@
             //     Console.WriteLine("unknown type");
             //     break;
             //}
+
+            #endregion
+            #endregion
+            #region switch c# 8.0
+            #region pattern matching without alias
+            //[object , integer , double]
+            //object obj = 10;
+            //switch (obj)
+            //{
+            //    case int:
+            //        Console.WriteLine("integer");
+            //        break;
+            //    case float:
+            //        Console.WriteLine("float");
+            //        break;
+            //    default:
+            //        Console.WriteLine("unknown data type");
+            //        break;
+            //}
+
+
+            #endregion
+            #region  switch case before pattern matching
+            //1=> msg = option 1
+            //int number;
+            //string result;
+            //Console.WriteLine("please enter the number [1,2,3]");
+            //int.TryParse(Console.ReadLine(), out number);
+            //switch(number)
+            //{
+            //    case 1:
+            //        result = "option 1";
+            //        break;
+            //    case 2:
+            //        result = "option 2";
+            //        break;
+            //    case 3:
+            //        result = "option 3";
+            //        break;
+            //    default:
+            //        result = "unknown option";
+            //        break;
+            //}
+            //Console.WriteLine(result);
+
+
+            #endregion
+            #region switch expression [constant pattern-discard pattern]
+            ////1=> msg = option 1
+            //int number;
+            //Console.WriteLine("please enter the number [1,2,3]");
+            //int.TryParse(Console.ReadLine(), out number);
+            //string result = number switch
+            //{
+            //    1 => "option 1", // constant pattern
+            //    2 => "option 2",
+            //    3 => "option 3",
+            //    _ => "unknown option"  // discard pattern
+            //};
+            //Console.WriteLine(result);
+            #endregion
+
+            #region property pattern
+            //person
+            //person person = new person() { Id = 10, Name = "Hamada", Age = 20 };
+            //string result = person switch
+            //{
+            //    { Id: 10, Name: "Hamada" } => "Hello Hamada",
+            //    { Id: 20, Name: "Ahmed" } => "Hello Ahmed",
+            //    { Id: 30, Name: "Ali" } => "Hello Ali",
+            //    _ => "Hello stranger"
+            //};
+            //Console.WriteLine(result);
+
+
+            #endregion
+
+            #region Nullable reference type
+            ////int? number = null;
+            //int? number = null;
+            //string result = number switch
+            //{
+            //    null => "number is null",
+            //    int x when x >0 => "number is greater than 0",
+            //    int y when y <0 => "number is less than 0",
+            //    _ => "zero"
+            //};
+            //Console.WriteLine(result);
 
             #endregion
             #endregion
