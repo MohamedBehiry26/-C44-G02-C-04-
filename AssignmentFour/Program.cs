@@ -32,40 +32,66 @@
             //    Console.WriteLine("positive");
             //}
             #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-            #region
-            #endregion
-        }
+
+            #region 3- Write a program that takes 3 integers from the user then prints the max element and the min element.
+            //Console.Write("Enter first number: ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter second number: ");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter third number: ");
+            //int num3 = Convert.ToInt32(Console.ReadLine());
+
+            //int max = num1;
+            //int min = num1;
+
+            //if (num2 > max) max = num2;
+            //if (num3 > max) max = num3;
+
+            //if (num2 < min) min = num2;
+            //if (num3 < min) min = num3;
+
+            //Console.WriteLine("Max element = " + max);
+            //Console.WriteLine("Min element = " + min);
+        
+        #endregion
+
+        #region
+        #endregion
+
+        #region
+        #endregion
+
+        #region
+        #endregion
+
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+        #region
+        #endregion
+    }
     }
 }
