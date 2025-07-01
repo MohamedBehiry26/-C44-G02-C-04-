@@ -54,44 +54,55 @@
 
             //Console.WriteLine("Max element = " + max);
             //Console.WriteLine("Min element = " + min);
-        
-        #endregion
 
-        #region
-        #endregion
+            #endregion
 
-        #region
-        #endregion
+            #region 4- Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            //Console.Write("Enter an integer: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
 
-        #region
-        #endregion
+            //if (number % 2 == 0)
+            //{
+            //    Console.WriteLine("Even");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Odd");
+            //}
+            #endregion
 
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-        #region
-        #endregion
-    }
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+            #region
+            #endregion
+        }
     }
 }
