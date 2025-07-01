@@ -431,7 +431,24 @@ namespace AssignmentFour
             //}
             #endregion
 
-            #region
+            #region 20- Write a program in C# Sharp to find the sum of all elements of the array.
+            //Console.Write("Enter the number of elements in the array: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //int[] numbers = new int[n];
+            //int sum = 0;
+
+            
+            //Console.WriteLine("Enter {0} elements:", n);
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write("Element [{0}]: ", i);
+            //    numbers[i] = Convert.ToInt32(Console.ReadLine());
+            //    sum += numbers[i];
+            //}
+
+            
+            //Console.WriteLine("The sum of all elements in the array is: " + sum);
             #endregion
 
             #region
