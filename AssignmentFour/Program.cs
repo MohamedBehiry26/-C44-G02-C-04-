@@ -367,11 +367,60 @@ namespace AssignmentFour
             //        number++;
             //    }
             //}
-            
+
 
 
 
             #endregion
+            #endregion
+            #region string
+            //string name = "Hamada"; //syntax sugar for new string("Hamada");
+            //string name = new string("mariam");
+            //string name2 = "mariam";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //name2 = "omar";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+
+            //string name = "Hello";
+            //Console.WriteLine(name);    
+            //Console.WriteLine(name.GetHashCode());
+            //name += "mariam";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+            //string name = "Hamada";
+            ////static methods ==> class members methods ==> class
+            ////Non-static methods ==> object members methods ==> instance
+
+            //Console.WriteLine(name.Length); // 6
+            //Console.WriteLine(name.ToUpper()); // "HAMADA"
+            //Console.WriteLine(name.ToLower()); // "hamada"
+            //Console.WriteLine(name.Contains("H")); // true
+            //Console.WriteLine(name.Contains("h")); // false
+            //Console.WriteLine(name.StartsWith("H")); // true
+            //Console.WriteLine(name.EndsWith("a")); // true
+            //Console.WriteLine(name.IndexOf("a")); // 5
+            //Console.WriteLine(name.LastIndexOf("a")); // 5
+            //Console.WriteLine(name.IndexOf("m")); // 2
+            //Console.WriteLine(name.LastIndexOf("m")); // 2
+            //Console.WriteLine(name.IndexOf("z")); // -1
+            //Console.WriteLine(name.LastIndexOf("z")); // -1
+            //Console.WriteLine(name.Substring(0, 3)); // "Ham"
+            //Console.WriteLine(name.Substring(3)); // "ada"
+            //Console.WriteLine(name.Replace("H", "h")); // "hamada"
+            //Console.WriteLine(name.Replace("H", "h").Replace("a", "A")); // "hAmAdA"
+            //Console.WriteLine(name.Trim()); // "Hamada" (removes leading and trailing whitespace)
+            //Console.WriteLine(name.TrimStart()); // "Hamada" (removes leading whitespace)
+            //Console.WriteLine(name.TrimEnd()); // "Hamada" (removes trailing whitespace)
+            
             #endregion
         }
     }
