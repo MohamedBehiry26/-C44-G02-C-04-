@@ -1,4 +1,7 @@
-﻿using System.IO.Pipes;
+﻿using Microsoft.VisualBasic;
+using System.IO.Pipes;
+using System.Text;
+
 
 namespace AssignmentFour
 {
@@ -420,7 +423,52 @@ namespace AssignmentFour
             //Console.WriteLine(name.Trim()); // "Hamada" (removes leading and trailing whitespace)
             //Console.WriteLine(name.TrimStart()); // "Hamada" (removes leading whitespace)
             //Console.WriteLine(name.TrimEnd()); // "Hamada" (removes trailing whitespace)
-            
+
+            #endregion
+            #region stringBuilder
+            //is a built in class [reference data type ] and represente
+            //mutable string
+            //linkedlist of characters
+            #region Examples
+            //StringBuilder name;
+            ////allocate 4 bytes
+            ////name = "mariam" //invalid
+            //name = new StringBuilder("mariam"); //valid
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            ////name+= " hamada"; //invalid
+            //name.Append(" shindy"); //valid
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+
+            //StringBuilder name1 = new StringBuilder("mohamed");
+            //StringBuilder name2 = new StringBuilder("");
+            //name2.Append("mohamed");
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //name1 =name2;
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            #endregion
+            #endregion
+            #region StringBuilder Methods   
+            //StringBuilder msg = new StringBuilder("Hamada");
+            //Console.WriteLine(msg); // "Hamada"
+            //Console.WriteLine(msg.GetHashCode()); // hash code of the string builder object
+            //msg.Append(" Shindy"); // "Hamada Shindy"
+            //                                      //int age = 20;
+            //                                      //msg.appendformat("Hello {0}, you are {1} years old", name, age); // "Hello Hamada, you are 20 years old"
+            //                                      //msg.clear(); // clears the StringBuilder
+
+            ////Console.WriteLine(name.Length); // 6
+            ////name.Append(" Shindy"); // "Hamada Shindy"
+            ////name.AppendLine(" Ahmed"); // "Hamada Shindy\nAhmed"
+            ////name.AppendJoin(", ", "Ali", "Omar", "Ahmed"); // "Hamada Shindy\nAhmed, Ali, Omar, Ahmed"
             #endregion
         }
     }
