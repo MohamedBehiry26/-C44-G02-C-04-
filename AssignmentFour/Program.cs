@@ -743,7 +743,44 @@ namespace AssignmentFour
 
             #endregion
 
-            #region
+            #region Task
+
+            //Student Age Checker (Using Relational Patterns with Switch)
+            //Let the user enter a student's age.
+            //Use switch with relational pattern to check:
+
+            //If age > 25 : print "Older Student"
+            //If age between 18–25 : print "University Student"     
+            //If age < 18 : print "School Student"
+
+            //Use switch expression / relational pattern / when keyword
+
+            //*************************
+            // Answer   
+            //*************************
+            //Console.Write("Enter student age: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //switch (age)
+            //{
+            //    case int a when a > 25:
+            //        Console.WriteLine("Older Student");
+            //        break;
+
+            //    case int a when a >= 18 && a <= 25:
+            //        Console.WriteLine("University Student");
+            //        break;
+
+            //    case int a when a < 18:
+            //        Console.WriteLine("School Student");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Invalid input.");
+            //        break;
+            //}
+
+
             #endregion
 
 
