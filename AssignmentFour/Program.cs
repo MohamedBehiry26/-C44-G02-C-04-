@@ -641,7 +641,12 @@ namespace AssignmentFour
             //}
             #endregion
 
-            #region
+            #region 26- Given a list of space separated words, reverse the order of the words.
+            //Console.Write("Enter a sentence: ");
+            //string input = Console.ReadLine();
+
+            
+            //Console.WriteLine(string.Join(" ", input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Reverse()));
             #endregion
 
             #region
