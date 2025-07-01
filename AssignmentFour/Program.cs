@@ -713,7 +713,17 @@ namespace AssignmentFour
             //Console.WriteLine(); 
             #endregion
 
-            #region
+            #region 29-.Write a program that uses the ternary operator to check if the temperature is too hot, too cold, or just good. Assign the result in a variable then display the result. Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot", and anything else is "Just Good".
+            //Console.Write("Enter the temperature in degrees: ");
+            //int temperature = Convert.ToInt32(Console.ReadLine());
+
+            //string result = (temperature < 10)
+            //    ? "Just Cold"
+            //    : (temperature > 30)
+            //        ? "Just Hot"
+            //        : "Just Good";
+
+            //Console.WriteLine("Temperature Status: " + result);
             #endregion
 
             #region
