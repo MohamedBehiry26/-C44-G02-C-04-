@@ -597,7 +597,48 @@ namespace AssignmentFour
             //}
             #endregion
 
-            #region
+            #region 25-. Consider an Array of Integer values with size N, having values as in this Example
+            //Console.Write("Enter the number of elements in the array: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter the array elements:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Element [{i}]: ");
+            //    arr[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Dictionary<int, int> firstIndex = new Dictionary<int, int>();
+            //int maxDistance = -1;
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    int value = arr[i];
+            //    if (!firstIndex.ContainsKey(value))
+            //    {
+            //        // Store the first occurrence of the value
+            //        firstIndex[value] = i;
+            //    }
+            //    else
+            //    {
+            //        int distance = i - firstIndex[value] - 1; // exclude endpoints
+            //        if (distance > maxDistance)
+            //        {
+            //            maxDistance = distance;
+            //        }
+            //    }
+            //}
+
+            //if (maxDistance == -1)
+            //{
+            //    Console.WriteLine("No repeated elements found.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The longest distance between two equal values is: " + maxDistance);
+            //}
             #endregion
 
             #region
