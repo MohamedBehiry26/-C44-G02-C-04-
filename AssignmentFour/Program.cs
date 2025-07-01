@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Reflection.Metadata;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -158,7 +159,26 @@ namespace AssignmentFour
             //Console.WriteLine("Output: " + result);
             #endregion
 
-            #region
+            #region 10- Write a program to enter marks of five subjects and calculate total, average and percentage.
+            //int[] marks = new int[5];
+            //int total = 0;
+
+            //Console.WriteLine("Enter marks of five subjects:");
+
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.Write($"Subject {i + 1}: ");
+            //    marks[i] = Convert.ToInt32(Console.ReadLine());
+            //    total += marks[i];
+            //}
+
+            //double average = total / 5.0;
+            //double percentage = average; // Assuming each subject is out of 100
+
+            //Console.WriteLine("Total marks = " + total);
+            //Console.WriteLine("Average Marks = " + average);
+            //Console.WriteLine("Percentage = " + percentage);
+
             #endregion
 
             #region
