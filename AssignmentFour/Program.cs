@@ -260,7 +260,18 @@ namespace AssignmentFour
             //}
             #endregion
 
-            #region
+            #region 13- Write a program to allow the user to enter a string and print the REVERSE of it.
+            //Console.Write("Enter a string: ");
+            //string input = Console.ReadLine();
+
+            //string reversed = "";
+
+            //for (int i = input.Length - 1; i >= 0; i--)
+            //{
+            //    reversed += input[i];
+            //}
+
+            //Console.WriteLine("Reversed string: " + reversed);
             #endregion
 
             #region
