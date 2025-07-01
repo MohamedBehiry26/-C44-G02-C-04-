@@ -494,7 +494,7 @@ namespace AssignmentFour
             //    Console.WriteLine(item); // 1, mariam, True
             //}
 
-            
+
 
             //new
             //1] allocate required at heap 16 bytes of memory
@@ -502,7 +502,35 @@ namespace AssignmentFour
             //3] assign the reference of the array to the variable
             //4] call user defined constructor
 
-            
+
+            #endregion
+            #region 2D array
+
+            //int[,] marks = new int[3, 5]
+            ////10 * 4bytes = 40 bytes
+            //{
+            //    { 100, 200, 300, 400, 500},
+            //{ 600, 700, 800, 900, 1000 },
+            //{ 1100, 1200, 1300, 1400, 1500}
+            //}
+            //;
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < marks.GetLength(1); j++)
+            //    {
+            //        Console.Write(marks[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            }
+            //marks[0,0] = 100;
+            //marks[0, 1] = 200;
+            //marks[0, 2] = 300;
+            //marks[0, 3] = 400;
+            //marks[0, 4] = 500;
+
+            //Console.WriteLine(marks[0, 0]); // 100
+
+
             #endregion
         }
     }
