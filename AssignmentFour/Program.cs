@@ -438,7 +438,7 @@ namespace AssignmentFour
             //int[] numbers = new int[n];
             //int sum = 0;
 
-            
+
             //Console.WriteLine("Enter {0} elements:", n);
             //for (int i = 0; i < n; i++)
             //{
@@ -447,11 +447,45 @@ namespace AssignmentFour
             //    sum += numbers[i];
             //}
 
-            
+
             //Console.WriteLine("The sum of all elements in the array is: " + sum);
             #endregion
 
-            #region
+            #region 21- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+            //Console.Write("Enter size of the arrays: ");
+            //int size = Convert.ToInt32(Console.ReadLine());
+
+            //int[] array1 = new int[size];
+            //int[] array2 = new int[size];
+            //int[] mergedArray = new int[size * 2];
+
+            //// Input for first array
+            //Console.WriteLine("Enter elements of first array:");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write("Element [{0}]: ", i);
+            //    array1[i] = Convert.ToInt32(Console.ReadLine());
+            //    mergedArray[i] = array1[i]; 
+            //}
+
+ 
+            //Console.WriteLine("Enter elements of second array:");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write("Element [{0}]: ", i);
+            //    array2[i] = Convert.ToInt32(Console.ReadLine());
+            //    mergedArray[size + i] = array2[i]; 
+            //}
+
+       
+            //Array.Sort(mergedArray);
+
+            
+            //Console.WriteLine("\nMerged and Sorted Array:");
+            //foreach (int num in mergedArray)
+            //{
+            //    Console.Write(num + " ");
+            //}
             #endregion
 
             #region
