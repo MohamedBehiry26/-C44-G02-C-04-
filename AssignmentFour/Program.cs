@@ -140,6 +140,23 @@ namespace AssignmentFour
 
             #endregion
 
+            #region 9- Write a program that takes two integers then prints the power.
+
+            //Console.Write("Enter the base number: ");
+            //int baseNumber = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter the exponent: ");
+            //int exponent = Convert.ToInt32(Console.ReadLine());
+
+            //int result = 1;
+
+            //for (int i = 1; i <= exponent; i++)
+            //{
+            //    result *= baseNumber;
+            //}
+
+            //Console.WriteLine("Output: " + result);
+            #endregion
 
             #region
             #endregion
