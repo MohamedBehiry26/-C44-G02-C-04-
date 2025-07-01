@@ -274,7 +274,20 @@ namespace AssignmentFour
             //Console.WriteLine("Reversed string: " + reversed);
             #endregion
 
-            #region
+            #region 14 - Write a program to allow the user to enter int and print the REVERSED of it.
+            //Console.Write("Enter an integer: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //int reversed = 0;
+
+            //while (number != 0)
+            //{
+            //    int digit = number % 10;
+            //    reversed = reversed * 10 + digit;
+            //    number /= 10;
+            //}
+
+            //Console.WriteLine("Reversed number: " + reversed);
             #endregion
 
             #region
