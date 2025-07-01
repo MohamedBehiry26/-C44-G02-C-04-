@@ -1,4 +1,6 @@
-﻿using System.Reflection.Metadata;
+﻿using System.ComponentModel;
+using System.Reflection.Metadata;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AssignmentFour
 {
@@ -77,7 +79,7 @@ namespace AssignmentFour
             //Console.Write("Enter a character: ");
             //char ch = Convert.ToChar(Console.ReadLine());
 
-            
+
             //ch = Char.ToLower(ch);
 
             //if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
@@ -95,7 +97,25 @@ namespace AssignmentFour
 
             #endregion
 
-            #region
+            #region 6 - Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
+            //Console.Write("Enter an integer: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //if (number >= 1)
+            //{
+            //    for (int i = 1; i <= number; i++)
+            //    {
+            //        if (i != number)
+            //            Console.Write(i + ", ");
+            //        else
+            //            Console.Write(i); // No comma after the last number
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Please enter a number greater than or equal to 1.");
+            //}
+
             #endregion
 
             #region
