@@ -645,11 +645,50 @@ namespace AssignmentFour
             //Console.Write("Enter a sentence: ");
             //string input = Console.ReadLine();
 
-            
+
             //Console.WriteLine(string.Join(" ", input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Reverse()));
             #endregion
 
-            #region
+            #region 27- Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.
+            //Console.Write("Enter number of rows: ");
+            //int rows = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter number of columns: ");
+            //int cols = Convert.ToInt32(Console.ReadLine());
+
+            //int[,] array1 = new int[rows, cols];
+            //int[,] array2 = new int[rows, cols];
+
+
+            //Console.WriteLine("Enter values for the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write($"Element [{i},{j}]: ");
+            //        array1[i, j] = Convert.ToInt32(Console.ReadLine());
+            //    }
+            //}
+
+
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        array2[i, j] = array1[i, j];
+            //    }
+            //}
+
+
+            //Console.WriteLine("\nSecond array after copying:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write(array2[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
             #endregion
 
             #region
