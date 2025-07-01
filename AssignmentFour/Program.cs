@@ -322,36 +322,132 @@ namespace AssignmentFour
             #endregion
 
             #region 16- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
-            
-                //Console.Write("Enter a number to convert: ");
-                //int number = Convert.ToInt32(Console.ReadLine());
 
-                //string binary = "";
+            //Console.Write("Enter a number to convert: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
 
-                //int temp = number;
+            //string binary = "";
 
-                //if (number == 0)
-                //{
-                //    binary = "0";
-                //}
-                //else
-                //{
-                //    while (number > 0)
-                //    {
-                //        int remainder = number % 2;
-                //        binary = remainder + binary; // Prepend each bit
-                //        number = number / 2;
-                //    }
-                //}
+            //int temp = number;
 
-                //Console.WriteLine("The Binary of {0} is {1}.", temp, binary);
-                #endregion
-                #region
-                #endregion
-                #region
-                #endregion
-                #region
-                #endregion
-            }
+            //if (number == 0)
+            //{
+            //    binary = "0";
+            //}
+            //else
+            //{
+            //    while (number > 0)
+            //    {
+            //        int remainder = number % 2;
+            //        binary = remainder + binary; // Prepend each bit
+            //        number = number / 2;
+            //    }
+            //}
+
+            //Console.WriteLine("The Binary of {0} is {1}.", temp, binary);
+            #endregion
+
+            #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            //Console.Write("Enter x1: ");
+            //double x1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter y1: ");
+            //double y1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter x2: ");
+            //double x2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter y2: ");
+            //double y2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter x3: ");
+            //double x3 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter y3: ");
+            //double y3 = Convert.ToDouble(Console.ReadLine());
+
+
+            //double area = 0.5 * Math.Abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
+
+            //if (area == 0)
+            //{
+            //    Console.WriteLine("The points lie on the same straight line.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The points do NOT lie on the same straight line.");
+            //}
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+            #region
+            #endregion
+
+        }
     }
 }
