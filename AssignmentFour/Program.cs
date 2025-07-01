@@ -552,7 +552,49 @@ namespace AssignmentFour
             //Console.WriteLine("Minimum element = " + min);
             #endregion
 
-            #region
+            #region 24- Write a program in C# Sharp to find the second largest element in an array.
+            //Console.Write("Enter number of elements in the array: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //if (n < 2)
+            //{
+            //    Console.WriteLine("Array must have at least two elements.");
+            //    return;
+            //}
+
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter array elements:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Element [{i}]: ");
+            //    arr[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int first = int.MinValue;
+            //int second = int.MinValue;
+
+            //foreach (int num in arr)
+            //{
+            //    if (num > first)
+            //    {
+            //        second = first;
+            //        first = num;
+            //    }
+            //    else if (num > second && num != first)
+            //    {
+            //        second = num;
+            //    }
+            //}
+
+            //if (second == int.MinValue)
+            //{
+            //    Console.WriteLine("There is no second largest element (all elements are equal).");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Second largest element is: " + second);
+            //}
             #endregion
 
             #region
