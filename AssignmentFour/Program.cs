@@ -181,7 +181,32 @@ namespace AssignmentFour
 
             #endregion
 
-            #region
+            #region 11- Write a program to input the month number and print the number of days in that month.
+            //Console.Write("Enter month number (1-12): ");
+            //int month = Convert.ToInt32(Console.ReadLine());
+
+            //int days;
+
+            //if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+            //{
+            //    days = 31;
+            //}
+            //else if (month == 4 || month == 6 || month == 9 || month == 11)
+            //{
+            //    days = 30;
+            //}
+            //else if (month == 2)
+            //{
+            //    days = 28; // Not checking leap year here
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid month number.");
+            //    return;
+            //}
+
+            //Console.WriteLine("Days in Month: " + days);
+
             #endregion
 
             #region
