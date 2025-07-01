@@ -468,7 +468,7 @@ namespace AssignmentFour
             //    mergedArray[i] = array1[i]; 
             //}
 
- 
+
             //Console.WriteLine("Enter elements of second array:");
             //for (int i = 0; i < size; i++)
             //{
@@ -477,10 +477,10 @@ namespace AssignmentFour
             //    mergedArray[size + i] = array2[i]; 
             //}
 
-       
+
             //Array.Sort(mergedArray);
 
-            
+
             //Console.WriteLine("\nMerged and Sorted Array:");
             //foreach (int num in mergedArray)
             //{
@@ -488,7 +488,39 @@ namespace AssignmentFour
             //}
             #endregion
 
-            #region
+            #region 22- Write a program in C# Sharp to count the frequency of each element of an array.
+            //Console.Write("Enter the number of elements in the array: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //int[] array = new int[n];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Element [{i}]: ");
+            //    array[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+
+            //Dictionary<int, int> frequency = new Dictionary<int, int>();
+
+            //foreach (int value in array)
+            //{
+            //    if (frequency.ContainsKey(value))
+            //    {
+            //        frequency[value]++;
+            //    }
+            //    else
+            //    {
+            //        frequency[value] = 1;
+            //    }
+            //}
+
+            //Console.WriteLine("\nFrequency of each element:");
+            //foreach (var item in frequency)
+            //{
+            //    Console.WriteLine($"Element {item.Key} occurs {item.Value} time(s)");
+            //}
             #endregion
 
             #region
