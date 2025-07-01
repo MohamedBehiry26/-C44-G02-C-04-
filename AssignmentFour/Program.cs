@@ -379,7 +379,37 @@ namespace AssignmentFour
             //}
             #endregion
 
-            #region
+            #region 18- Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
+            //  -If the worker completes the job within 2 to 3 hours, they are considered highly efficient.
+            //  - If the worker takes 3 to 4 hours, they are instructed to increase their speed.
+            //  - If the worker takes 4 to 5 hours, they are provided with training to enhance their speed.
+            // - If the worker takes more than 5 hours, they are required to leave the company.
+            //    To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
+
+            //Console.Write("Enter time taken to complete the task (in hours): ");
+            //double time = Convert.ToDouble(Console.ReadLine());
+
+            //if (time >= 2 && time <= 3)
+            //{
+            //    Console.WriteLine("Highly efficient.");
+            //}
+            //else if (time > 3 && time <= 4)
+            //{
+            //    Console.WriteLine("You need to increase your speed.");
+            //}
+            //else if (time > 4 && time <= 5)
+            //{
+            //    Console.WriteLine("You will be given training to improve your speed.");
+            //}
+            //else if (time > 5)
+            //{
+            //    Console.WriteLine("You are required to leave the company.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input. Time must be 2 hours or more.");
+            //}
+
             #endregion
 
             #region
