@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using System.Globalization;
 using System.IO.Pipes;
 using System.Text;
 
@@ -469,6 +470,39 @@ namespace AssignmentFour
             ////name.Append(" Shindy"); // "Hamada Shindy"
             ////name.AppendLine(" Ahmed"); // "Hamada Shindy\nAhmed"
             ////name.AppendJoin(", ", "Ali", "Omar", "Ahmed"); // "Hamada Shindy\nAhmed, Ali, Omar, Ahmed"
+            #endregion
+            #region 1D array
+            //int[] numbers = new int[4]; // allocate 16 bytes of memory
+            //int [] numbers = [1,2,4,5]; // allocate 16 bytes of memory
+            //int[] numbers = new int[3] ; 
+            //Array.Fill(numbers, 5); // initialize the array with default values
+            //Console.WriteLine(numbers[0]); // 5
+            //Console.WriteLine(numbers[1]); // 5
+            //Console.WriteLine(numbers[2]); // 5
+
+            //Array arr= Array.CreateInstance(typeof(int), 3); // allocate 12 bytes of memory
+            //arr.SetValue(1, 0); // set the value of the first element to 1
+            //arr.SetValue(2, 1); // set the value of the second element to 2
+            //arr.SetValue(3, 2); // set the value of the third element to 3
+            //Console.WriteLine(arr.GetValue(0)); // 1
+            //Console.WriteLine(arr.GetValue(1)); // 2
+            //Console.WriteLine(arr.GetValue(2)); // 3
+
+            //object[] data = new object[3] {1, "mariam", true}; // allocate 24 bytes of memory
+            //foreach (var item in data)
+            //{
+            //    Console.WriteLine(item); // 1, mariam, True
+            //}
+
+            
+
+            //new
+            //1] allocate required at heap 16 bytes of memory
+            //2] initialize the array with default values
+            //3] assign the reference of the array to the variable
+            //4] call user defined constructor
+
+            
             #endregion
         }
     }
