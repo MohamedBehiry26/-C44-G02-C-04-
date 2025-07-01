@@ -522,16 +522,18 @@ namespace AssignmentFour
             //    }
             //    Console.WriteLine();
             }
-            //marks[0,0] = 100;
-            //marks[0, 1] = 200;
-            //marks[0, 2] = 300;
-            //marks[0, 3] = 400;
-            //marks[0, 4] = 500;
+        //marks[0,0] = 100;
+        //marks[0, 1] = 200;
+        //marks[0, 2] = 300;
+        //marks[0, 3] = 400;
+        //marks[0, 4] = 500;
 
-            //Console.WriteLine(marks[0, 0]); // 100
+        //Console.WriteLine(marks[0, 0]); // 100
 
 
-            #endregion
-        }
+        #endregion
+        #region test
+        #endregion 
     }
+}
 }
