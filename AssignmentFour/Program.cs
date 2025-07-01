@@ -726,38 +726,27 @@ namespace AssignmentFour
             //Console.WriteLine("Temperature Status: " + result);
             #endregion
 
-            #region
+            #region 30-What will be the output of the C# code given below?
+            //int num = 1, z = 5;
+
+
+            //if (!(num <= 0))
+            //    Console.WriteLine(++num + z++ + " " + ++z);
+            //else
+            //    Console.WriteLine(--num + z-- + " " + --z);
+
+
+            //a] 5 6
+            //b] 6 5
+            //c] 6 6
+            //d] 7 7   //Correct Answer
+
             #endregion
 
             #region
             #endregion
 
-            #region
-            #endregion
 
-            #region
-            #endregion
-
-            #region
-            #endregion
-
-            #region
-            #endregion
-
-            #region
-            #endregion
-
-            #region
-            #endregion
-
-            #region
-            #endregion
-
-            #region
-            #endregion
-
-            #region
-            #endregion
 
         }
     }
