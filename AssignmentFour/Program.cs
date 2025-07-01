@@ -128,20 +128,34 @@ namespace AssignmentFour
             //}
 
             #endregion
+
+            #region 8- Write a program that allows to user to insert number then print all even numbers between 1 to this number
+            //Console.Write("Enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = 2; i <= number; i += 2)
+            //{
+            //    Console.Write(i + " ");
+            //}
+
+            #endregion
+
+
             #region
             #endregion
+
             #region
             #endregion
+
             #region
             #endregion
+
             #region
             #endregion
+
             #region
             #endregion
-            #region
-            #endregion
-            #region
-            #endregion
+
             #region
             #endregion
             #region
